@@ -1,6 +1,6 @@
 use cosmwasm_schema::write_api;
 
-use roundup::msg::{ExecuteMsg, InstantiateMsg, QueryMsg};
+use sids_factory::msg::{ExecuteMsg, InstantiateMsg, QueryMsg};
 
 fn main() {
     write_api! {
